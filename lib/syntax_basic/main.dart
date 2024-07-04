@@ -18,3 +18,12 @@ void syntaxBasicMain(){
 
 
 }
+
+void main(){
+  dartDataType();
+  dartVariable();
+  finalVSConst();
+  stringLiteralInterprolation();
+  dartOperators();
+  syntaxBasicExcercise();
+}

@@ -2,6 +2,9 @@ void dartVariable(){
 
   const int compileTimeConstant = 42; // Evaluated at compile time
   var invalidConstant = DateTime.now().year; // Error: Not a compile-time constant
+
+  print(compileTimeConstant);
+  print(invalidConstant);
   
   final int runtimeConstant = DateTime.now().year; // Evaluated at runtime
   print('The current year is $runtimeConstant');

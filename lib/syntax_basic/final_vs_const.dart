@@ -2,6 +2,7 @@ void finalVSConst(){
   // final can not take mamory space
   // const can take memory space
   int x = 10, y = 20;
+  print(y);
   final amount = x;
   print(amount);
 
