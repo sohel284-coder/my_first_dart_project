@@ -3,12 +3,12 @@ const voterAge = 18;
 void ifElseCondition(){
  
   int age = 90;
-  int num = 1;
+  int number = 1;
 
   checkAge(age);
 
   // write a program to check if a number is positive, negative, or sero
-  checkNum(num);
+  checkNumber(number);
 
   //  write a programe to check if a person is elgible for vote;
   eligibleToVote(age);
@@ -29,13 +29,13 @@ void checkAge(age){
 }
 
 
-void checkNum(num){
-  if(num > 0){
-    print("$num is positiv");
-  }else if(num < 0){
-    print("$num is negative");
+void checkNumber(number){
+  if(number> 0){
+    print("$number is positiv");
+  }else if(number< 0){
+    print("$number is negative");
   }else{
-    print("$num is zero");
+    print("$number is zero");
   }
 }
 
