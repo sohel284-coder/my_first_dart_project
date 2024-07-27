@@ -1,4 +1,4 @@
-import 'package:my_first_dart_project/syntax_basic/operators.dart';
+
 
 import 'variable.dart';
 
@@ -13,7 +13,7 @@ void syntaxBasicMain(){
   dartVariable();
   finalVSConst();
   stringLiteralInterprolation();
-  dartOperators();
+  // dartOperators();
   syntaxBasicExcercise();
 
 
@@ -24,6 +24,6 @@ void main(){
   dartVariable();
   finalVSConst();
   stringLiteralInterprolation();
-  dartOperators();
+
   syntaxBasicExcercise();
 }
